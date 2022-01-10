@@ -10,19 +10,19 @@ to remain packed by consumers by making use of our application people will avoid
 well as government norms and protocols will also be followed. In this application, the consumers/people have to book their appointments by enrolling 
 into our system. People can track the appointments scheduled for the specific shop.
 
-![alt text](Screenshots/Splash Screen.png)
-![alt text](Screenshots/Login & Signup.png)
-![alt text](Screenshots/Signup.png)
-![alt text](Screenshots/Enter OTP.png)
-![alt text](Screenshots/Dashboard.png)
-![alt text](Screenshots/Navigation Drawer.png)
-![alt text](Screenshots/List of Shops.png)
-![alt text](Screenshots/Book Appointment 1.png)
-![alt text](Screenshots/Book Appointment 2.png)
-![alt text](Screenshots/Book Appointment 3.png)
-![alt text](Screenshots/Book Appointment 4.png)
-![alt text](Screenshots/Appointment Details.png)
-![alt text](Screenshots/Shop Details.png)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Splash%20Screen.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Login%20&%20SIgnup.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Signup.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Enter%20OTP.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Dashboard.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Navigation%20Drawer.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/List%20of%20Shops.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Book%20Appointment%201.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Book%20Appointment%202.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Book%20Appointment%203.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Book%20Appointment%204.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Appointment%20Details.jpg?raw=true)
+![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Shop%20Details.jpg?raw=true)
 
 ### Functionality & Concepts Used
 The app has user-friendly interface, anyone can easily book appointments suitable to their schedule. Following are few android concepts used to achieve the functionality in app:
