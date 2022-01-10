@@ -10,7 +10,7 @@ to remain packed by consumers by making use of our application people will avoid
 well as government norms and protocols will also be followed. In this application, the consumers/people have to book their appointments by enrolling 
 into our system. People can track the appointments scheduled for the specific shop.
 
-![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/confirm.png?raw=true)
+![alt text](Screenshots/<imagename>.png)
 
 ### Functionality & Concepts Used
 The app has user-friendly interface, anyone can easily book appointments suitable to their schedule. Following are few android concepts used to achieve the functionality in app:
