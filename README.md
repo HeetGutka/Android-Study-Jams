@@ -11,15 +11,18 @@ well as government norms and protocols will also be followed. In this applicatio
 into our system. People can track the appointments scheduled for the specific shop.
 
 <img width="200" height="433" src="./Screenshots/Splash Screen.jpg"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-InternetConnectivityCheck.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-EmptyTitleCheck.png">
-<img width="200" height="433" src="./assets/images/screenshots/light/BookSearchResultsActivity.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity-AddedToWishlist.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity-RemovedFromWishlist.png"> 
-<img width="200" height="433" src="./assets/images/screenshots/light/WishlistActivity.png">
-<img width="200" height="433" src="./assets/images/screenshots/light/ServerErrorActivity-NoResponseFound.png">
+<img width="200" height="433" src="./Screenshots/Login & SIgnup.jpg">
+<img width="200" height="433" src="./Screenshots/Signup.jpg">
+<img width="200" height="433" src="./Screenshots/Enter OTP.jpg">
+<img width="200" height="433" src="./Screenshots/Dashboard.jpg">
+<img width="200" height="433" src="./Screenshots/Navigation Drawer.jpg">
+<img width="200" height="433" src="./Screenshots/List of Shops.jpg">
+<img width="200" height="433" src="./Screenshots/Book Appointment 1.jpg">
+<img width="200" height="433" src="./Screenshots/Book Appointment 2.jpg">
+<img width="200" height="433" src="./Screenshots/Book Appointment 3.jpg">
+<img width="200" height="433" src="./Screenshots/Book Appointment 4.jpg">
+<img width="200" height="433" src="./Screenshots/Appointment Details.jpg">
+<img width="200" height="433" src="./Screenshots/Shop Details.jpg">
 
 ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Splash%20Screen.jpg?raw=true)
 ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Login%20&%20SIgnup.jpg?raw=true)
