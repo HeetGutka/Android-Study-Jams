@@ -11,9 +11,9 @@ well as government norms and protocols will also be followed. In this applicatio
 into our system. People can track the appointments scheduled for the specific shop.
 
 <img width="200" height="433" src="./Screenshots/Splash Screen.jpg"> <img width="200" height="433" src="./Screenshots/Login & SIgnup.jpg"> <img width="200" height="433" src="./Screenshots/Signup.jpg"> <br>
-<img width="200" height="433" src="./Screenshots/Enter OTP.jpg"> <img width="200" height="433" src="./Screenshots/Dashboard.jpg"> <img width="200" height="433" src="./Screenshots/Navigation Drawer.jpg">
-<img width="200" height="433" src="./Screenshots/List of Shops.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 1.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 2.jpg">
-<img width="200" height="433" src="./Screenshots/Book Appointment 3.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 4.jpg"> <img width="200" height="433" src="./Screenshots/Appointment Details.jpg">
+<img width="200" height="433" src="./Screenshots/Enter OTP.jpg"> <img width="200" height="433" src="./Screenshots/Dashboard.jpg"> <img width="200" height="433" src="./Screenshots/Navigation Drawer.jpg"> <br>
+<img width="200" height="433" src="./Screenshots/List of Shops.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 1.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 2.jpg"> <br>
+<img width="200" height="433" src="./Screenshots/Book Appointment 3.jpg"> <img width="200" height="433" src="./Screenshots/Book Appointment 4.jpg"> <img width="200" height="433" src="./Screenshots/Appointment Details.jpg"> <br>
 <img width="200" height="433" src="./Screenshots/Shop Details.jpg">
 
 <!-- ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Splash%20Screen.jpg?raw=true)
