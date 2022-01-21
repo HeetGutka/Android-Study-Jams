@@ -10,7 +10,7 @@ to remain packed by consumers by making use of our application people will avoid
 well as government norms and protocols will also be followed. In this application, the consumers/people have to book their appointments by enrolling 
 into our system. People can track the appointments scheduled for the specific shop.
 
-<img width="200" height="433" src="./Screenshots/Splash Screen.png"> 
+<img width="200" height="433" src="./Screenshots/Splash Screen.jpg"> 
 <img width="200" height="433" src="./assets/images/screenshots/light/MainActivity.png"> 
 <img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-InternetConnectivityCheck.png"> 
 <img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-EmptyTitleCheck.png">
