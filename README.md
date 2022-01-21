@@ -10,6 +10,17 @@ to remain packed by consumers by making use of our application people will avoid
 well as government norms and protocols will also be followed. In this application, the consumers/people have to book their appointments by enrolling 
 into our system. People can track the appointments scheduled for the specific shop.
 
+<img width="200" height="433" src="Screenshots/Splash Screen.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-InternetConnectivityCheck.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/MainActivity-EmptyTitleCheck.png">
+<img width="200" height="433" src="./assets/images/screenshots/light/BookSearchResultsActivity.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity-AddedToWishlist.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/BookDetailsActivity-RemovedFromWishlist.png"> 
+<img width="200" height="433" src="./assets/images/screenshots/light/WishlistActivity.png">
+<img width="200" height="433" src="./assets/images/screenshots/light/ServerErrorActivity-NoResponseFound.png">
+
 ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Splash%20Screen.jpg?raw=true)
 ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Login%20&%20SIgnup.jpg?raw=true)
 ![alt text](https://github.com/HeetGutka/Android-Study-Jams/blob/main/Screenshots/Signup.jpg?raw=true)
