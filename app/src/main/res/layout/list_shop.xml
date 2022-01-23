@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/action_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10sp"
+    android:layout_marginHorizontal="10sp"
+    app:cardCornerRadius="15sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ls_shop_icon_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            app:cardCornerRadius="45sp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/ls_shop_icon"
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_alignParentStart="true"
+                android:padding="10sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/ls_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ls_shop_icon_card"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:text="Grocery Store" />
+
+        <TextView
+            android:id="@+id/ls_shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ls_shop_name"
+            android:layout_marginTop="5sp"
+            android:layout_toEndOf="@+id/ls_shop_icon_card"
+            tools:text=" 601 E 54th Street, New York City, New York, 10000 " />
+
+        <TextView
+            android:id="@+id/ls_shop_timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ls_shop_address"
+            android:layout_marginTop="10sp"
+            android:layout_toEndOf="@+id/ls_shop_icon_card"
+            tools:text="Opens at: 10 AM" />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

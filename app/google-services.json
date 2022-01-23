@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "950122452941",
+    "project_id": "gdsc-project-77ae8",
+    "storage_bucket": "gdsc-project-77ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950122452941:android:6275ed3544fc37778a9684",
+        "android_client_info": {
+          "package_name": "com.example.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950122452941-89et5plho35fh0dhscfrbch70ssmm45a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpQ-TgYYGWrXZYip_hVTykqx1afBysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950122452941-89et5plho35fh0dhscfrbch70ssmm45a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950122452941:android:9b511cc75a1657518a9684",
+        "android_client_info": {
+          "package_name": "com.example.ticketsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950122452941-89et5plho35fh0dhscfrbch70ssmm45a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpQ-TgYYGWrXZYip_hVTykqx1afBysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950122452941-89et5plho35fh0dhscfrbch70ssmm45a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

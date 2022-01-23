@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookingTime">
+
+    <fragment
+        android:id="@+id/bookingTime"
+        android:name="com.example.ticketsystem.BookingTime"
+        tools:layout="@layout/fragment_booking_time" >
+        <action
+            android:id="@+id/action_bookingTime_to_bookingAvailability"
+            app:destination="@id/bookingAvailability" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingAvailability"
+        android:name="com.example.ticketsystem.BookingAvailability"
+        tools:layout="@layout/fragment_booking_availability" >
+        <action
+            android:id="@+id/action_bookingAvailability_to_bookingSummary"
+            app:destination="@id/bookingSummary" />
+        <action
+            android:id="@+id/action_bookingAvailability_to_bookingTime"
+            app:destination="@id/bookingTime"
+            app:popUpTo="@id/bookingTime"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingSummary"
+        android:name="com.example.ticketsystem.BookingSummary"
+        tools:layout="@layout/fragment_booking_summary" >
+        <action
+            android:id="@+id/action_bookingSummary_to_bookingConfirm"
+            app:destination="@id/bookingConfirm"
+            app:popUpTo="@id/bookingTime"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_bookingSummary_to_bookingTime"
+            app:destination="@id/bookingTime"
+            app:popUpTo="@id/bookingTime"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/bookingConfirm"
+        android:name="com.example.ticketsystem.BookingConfirm"
+        tools:layout="@layout/fragment_booking_confirm" >
+        <action
+            android:id="@+id/action_bookingConfirm_to_bookingTime"
+            app:destination="@id/bookingTime"
+            app:popUpTo="@id/bookingTime"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

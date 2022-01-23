@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="6dp"
+    android:layout_marginHorizontal="4dp"
+    app:cardElevation="7dp"
+    app:cardCornerRadius="8dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="#2FDC74">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:id="@+id/appointmentDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Today"/>
+        <TextView
+            android:id="@+id/appointmentTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:text="12:30"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_shopping"
+            android:contentDescription="just a place holder"
+            android:scaleX="2"
+            android:scaleY="1.8"
+            android:layout_marginEnd="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/appointmentShopTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/appointmentLocationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="street 101,area 51,100243"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--
+    <Button
+        android:id="@+id/appointmentAddReminder"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:background="@android:color/transparent"
+        android:layout_gravity="end"/> -->
+</com.google.android.material.card.MaterialCardView>

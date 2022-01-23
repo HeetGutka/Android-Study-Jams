@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TicketSystem</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="go_back_to_login">Go Back to Login</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="booking_time">Time - %d:%d %s</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="next">Next</string>
+    <string name="shop_name">%s</string>
+    <string name="appointment_availability">Appointment Slots</string>
+    <string name="booking_availability">Slots Booked: %s/%s</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="book">Book Appointment</string>
+    <string name="cancel">Cancel</string>
+    <string name="order_details">Today\'s Date: %1$s \nShop Name: %2$s \nAppointment Date: %3$s \n\n Thank you!</string>
+</resources>

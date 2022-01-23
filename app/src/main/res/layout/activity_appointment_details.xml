@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:outlineAmbientShadowColor="@color/black">
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_marginLeft="20dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:orientation="horizontal">
+         <ImageView
+             android:layout_width="100dp"
+             android:layout_height="match_parent"
+             app:srcCompat="@drawable/ic_shopping"
+             android:layout_marginRight="20dp"/>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+            <TextView
+                android:id="@+id/appointmentDetailsShop"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="shop name"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/appointmentDetailsLocation"
+                android:textSize="20sp"
+                android:text="location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+         </LinearLayout>
+
+      </LinearLayout>
+      <TextView
+          android:layout_marginTop="30dp"
+          android:id="@+id/appointmentDetailsShop"
+          android:layout_width="match_parent"
+          android:textSize="30sp"
+          android:text="shop name"
+          android:textColor="#2FDC74"
+          android:layout_height="wrap_content"
+          tools:ignore="DuplicateIds" />
+      <TextView
+          android:layout_marginTop="10dp"
+          android:id="@+id/appointmentDetailsLocation"
+          android:textSize="25sp"
+          android:textColor="#2FDC74"
+          android:text="location"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:ignore="DuplicateIds" />
+
+      <TextView
+       android:layout_marginTop="10dp"
+       android:id="@+id/appointmentDetailsDate"
+       android:textSize="30dp"
+       android:text="2022-12-12"
+       android:textColor="#2FDC74"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+      <TextView
+          android:layout_marginTop="10dp"
+          android:id="@+id/appointmentDetailsTime"
+          android:textColor="#2FDC74"
+          android:textSize="30dp"
+          android:text="10:30"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/appointmentDetailsCancelAppointment"
+          app:cornerRadius="20dp"
+          android:layout_width="210dp"
+          app:backgroundTint="#E05D5D"
+          android:textSize="12sp"
+          android:text="Cancel Appointment"
+          android:layout_marginTop="50dp"
+          android:visibility="invisible"
+          android:layout_gravity="center"
+          android:layout_height="50dp"/>
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
