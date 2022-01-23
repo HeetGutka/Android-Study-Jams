@@ -39,8 +39,7 @@ The app has user-friendly interface, anyone can easily book appointments suitabl
 - `Navigation Library`: For scheduling appointments we have made use of navigation library and databinding concepts. Once the appointment is successfully scheduled, it then can be stored in Firebase.
 
 ### Application Link & Future Scope
-The app is currently in the testing phase with multiple local shops available around us. You can access the pre-release of our app from releases 
-section. Once the app is fully tested and functional with local shops, we plan to approach various businesses, and consultancies to allow this 
+The app is currently in the testing phase with multiple local shops available around us. You can access the pre-release of our app from [releases] (https://github.com/HeetGutka/Android-Study-Jams/releases/tag/BookEasy_Prerelase) section. Once the app is fully tested and functional with local shops, we plan to approach various businesses, and consultancies to allow this 
 app idea and collaborate with them as well. Also we are planning to schedule appointments not only for the present day but also some 3-4 days in prior. 
 We are also planning to add wishlist/favourite features so people can mark shops which they regularly wants to visit. People can also give ratings and 
 reviews about shops they visit.
