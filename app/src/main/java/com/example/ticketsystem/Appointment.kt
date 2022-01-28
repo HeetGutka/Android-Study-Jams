@@ -9,21 +9,22 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 
 class Appointment : AppCompatActivity() {
+    
     private lateinit var recyclerView: RecyclerView
     var appointmentArrayList: ArrayList<AppointmentData> = ArrayList()
     private lateinit var appointmentAdapter: AppointmentAdapter
     private lateinit var db: FirebaseFirestore
     var userid=""
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_appointment)
+        
         recyclerView = findViewById<RecyclerView>(R.id.AppointmentRecyclerView)
         val linearLayoutManager = LinearLayoutManager(applicationContext)
         recyclerView.layoutManager = linearLayoutManager
 
-        dataChangeListener()
+        dataChangeListener() // data retrieval and inserttion in the arraylist
 
         //println(appointmentArrayList.size)
         appointmentAdapter = AppointmentAdapter(appointmentArrayList)
@@ -34,11 +35,11 @@ class Appointment : AppCompatActivity() {
 
        lateinit var auth: FirebaseAuth
        auth = Firebase.auth
-        userid = auth.uid.toString()
+       userid = auth.uid.toString()  // userid retrieved from auth on login
 
-         userid = "3ypbcFn2nTPc3jpA57qa4zYSUWG3"
+      //   userid = "3ypbcFn2nTPc3jpA57qa4zYSUWG3"
 
-        db = FirebaseFirestore.getInstance()
+        db = FirebaseFirestore.getInstance()  // Retrieving document from firebase and storing in dataclass
         db.collection("Appointment")
             .whereEqualTo("userId", userid).get()
             .addOnSuccessListener { documents ->
